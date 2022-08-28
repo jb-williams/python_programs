@@ -1,3 +1,6 @@
+#**!!Both of these were made from tutorials of TCM-The Cyber Mentor!!**
+#https://github.com/hmaverickadams
+
 # Specifically to steal Windows Wifi Passwords
 import subprocess
 import os

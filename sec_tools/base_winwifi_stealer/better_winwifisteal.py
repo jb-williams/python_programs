@@ -1,5 +1,7 @@
-# Specifically steals Windows WiFi Passwords
+#**!!Both of these were made from tutorials of TCM-The Cyber Mentor!!**
+#https://github.com/hmaverickadams
 
+# Specifically steals Windows WiFi Passwords
 import subprocess, os, sys, requests, re, urllib
 # requests may need to be installed NOT STANDARD
 
