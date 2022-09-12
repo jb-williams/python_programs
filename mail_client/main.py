@@ -38,7 +38,7 @@ msg.attach(MIMEText(message, 'plain'))
 filename = '/path/to/pic.jpg' # path relative if in current dir absolute if somewhere else
 attachment = open(filename, 'rb')
 
-# payload objec
+# payload object
 p = MIMEBase('application', 'octet-stream')
 p.set_payload(attachment.read())
 

