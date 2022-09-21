@@ -60,7 +60,7 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
 status = ['Music and Jammin!', 'Eating mutton!', 'Counting the hoard!', 'Sleeping!']
 
-sad_words = ["sad", "shitty", "fucked up", "lame", "sucks", "depressed", "unhappy", "angry", "miserable", "depressing", "depression", "fatigued",
+sad_words = ["sad", "shitty", "f\'d up", "lame", "sucks", "depressed", "unhappy", "angry", "miserable", "depressing", "depression", "fatigued",
 "bad", "blue", "brokenhearted", "cast down", "crestfallen", "dejected", "depressed", "despondent", "disconsolate", "doleful", "down", "downcast", "downhearted", "down in the mouth", "droopy", "forlorn", "gloomy", "glum", "hangdog", "heartbroken", "heartsick", "heartsore", "heavyhearted", "inconsolable", "joyless", "low", "low-spirited", "melancholic", "melancholy", "miserable", "mournful", "saddened", "sorrowful", "sorry", "unhappy", "woebegone", "woeful", "wretched"]
 
 starter_encouragements = [
